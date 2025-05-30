@@ -1,12 +1,62 @@
-# React + Vite
+# 📝 Blog Application Using React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern blog dashboard built with **React** and **Material UI**, featuring routing, API integration, and a dynamic form to create new blog posts.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔗 **Navbar** with navigation links to Home and Add Blog
+- 🏠 **Dashboard** (Home) displays a list of blog posts from an external API
+- ➕ **Add Blog** form with fields for blog name, description, and author
+- 📦 **Routing** using `react-router-dom`
+- 💅 Styled using **Material UI** components with a clean, modern layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Screenshots
+
+> *(Add screenshots here if available)*
+
+---
+
+## 🧰 Tech Stack
+
+- **React**
+- **Vite**
+- **React Router DOM**
+- **Material UI (MUI)**
+- **Axios**
+
+---
+
+## 📂 Project Structure
+
+blog/
+├── bfrontend/
+│ ├── public/
+│ ├── src/
+│ │ ├── components/
+│ │ │ ├── NavBar.jsx
+│ │ │ ├── BlogDash.jsx
+│ │ │ └── AddBlog.jsx
+│ │ ├── App.jsx
+│ │ └── main.jsx
+│ ├── package.json
+│ └── vite.config.js
+
+
+---
+
+## 🛠️ Installation & Run
+
+```bash
+# Clone the repository
+git clone https://github.com/ANN-MARIA-TOMICHAN/blog.git
+cd blog/bfrontend
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
