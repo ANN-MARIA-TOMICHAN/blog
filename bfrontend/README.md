@@ -1,4 +1,4 @@
-# 📝 Blog Application Using React
+# 📝 Blog Application Using React- Assignment ICT Academy 
 
 A modern blog dashboard built with **React** and **Material UI**, featuring routing, API integration, and a dynamic form to create new blog posts.
 
@@ -14,11 +14,6 @@ A modern blog dashboard built with **React** and **Material UI**, featuring rout
 
 ---
 
-## 📸 Screenshots
-
-> *(Add screenshots here if available)*
-
----
 
 ## 🧰 Tech Stack
 
